@@ -20,6 +20,7 @@ Then use your weather data skills to plan future vacations based on consumer pre
 1. Update api_keys
 2. Open and run WeatherPy.ipynb
 3. After completion run VacationPy
+4. ideal_weather_df = city_data_df[(city_data_df["Max Temp"] < 27) & (city_data_df["Max Temp"] > 11) & (city_data_df["Humidity"] < 50)] Changing the values for Max Temp or Humidity will affect the outcomes. You can add "&(city_data_df["Cloudiness"] < ?)" or and "&(city_data_df["Wind Speed"] < ?)"
 
 ###Sources
 1. Class instruction
